@@ -10,6 +10,10 @@ public class Person {
 		this.name = name;
 		this.superpower = superpower;
 	}
+	
+	public String toString() {
+		return name + " has mad " + superpower + " skills";
+	}
 
 	String getName() {
 		return name;
